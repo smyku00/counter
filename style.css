@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+}
+
+.container {
+    width: 70%;
+    min-width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-block: 3em;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+p {
+    margin-block: .5em;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+button {
+    padding: .5em 1.5em;
+    margin-inline: .5em;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.positive-number {
+    color: green;
+}
+
+.negative-number {
+    color: red;
+}
